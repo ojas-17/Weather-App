@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathwe App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9a5c176476.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <video autoplay muted loop>
+            <source src="" type="video/mp4">
+        </video>
+        <div class="content">
+            <div class="search">
+                <i id="location-icon" class="fa-solid fa-location-crosshairs icons"></i>
+                <input id="city-input" type="text" placeholder="Enter City">
+                <i id="search-icon" class="fa-solid fa-magnifying-glass icons"></i>
+            </div>
+            <div class="weather">
+                <div id="city">
+
+                </div>
+                <img id="weather-icon" src="weather_image.png" alt="">
+                <span id="initial-text">Weather App</span>
+                <div id="temperature">
+                    <span id="temp"></span>
+                    <span id="temp-scale"></span>
+                </div>
+                <div class="min-max">
+                    <span id="min"></span>
+                    <span id="max"></span>
+                </div>
+                <span id="condition"></span>
+            </div>
+            <div class="forecast">
+                <ul class="forecast-list">
+                    <!-- <li class="forecast-item">
+                        <span class="forecast-time">21:00</span>
+                        <img class="forecast-icons" src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="">
+                        <span class="forecast-temp">21⁰C</span>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
