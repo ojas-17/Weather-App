@@ -1,4 +1,4 @@
-let api_key = ${{ vars.WEATHER_API_KEY }};
+let api_key = 'b01428da2e374707a35141924240709';
 let video = document.querySelector('video');
 let locIcon = document.getElementById("location-icon");
 let search = document.getElementById("search-icon");
